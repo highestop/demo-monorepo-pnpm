@@ -1,0 +1,12 @@
+{
+  "name": "demo-monorepo-pnpm",
+  "version": "0.0.0",
+  "packageManager": "pnpm@7.3.0",
+  "private": true,
+  "scripts": {
+    "preinstall": "only-allow pnpm"
+  },
+  "dependencies": {
+    "only-allow": "^1.1.1"
+  }
+}
